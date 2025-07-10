@@ -1,0 +1,1 @@
+web: pnpm --filter ./apps/frontend run start
