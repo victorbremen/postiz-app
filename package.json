@@ -29,6 +29,7 @@
     "dev:cron": "rm -rf apps/cron/dist && pnpm --filter ./apps/cron run dev",
     "start:prod:backend": "pnpm --filter ./apps/backend run start",
     "start:prod:frontend": "pnpm --filter ./apps/frontend run start",
+    "start": "pnpm run start:prod:frontend",
     "start:prod:workers": "pnpm --filter ./apps/workers run start",
     "start:prod:cron": "pnpm --filter ./apps/cron run start",
     "update-plugins": "node build.plugins.js",
